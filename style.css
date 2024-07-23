@@ -11,6 +11,16 @@ body {
   background: rgb(255, 95, 162);
   zoom: 100%;
 }
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 60px;
+  background: rgb(252, 200, 155);
+  border-radius: 20px;
+  margin-top: -10px;
+}
 
 .container {
   display: flex;
@@ -52,6 +62,18 @@ body {
   border-radius: 20px;
   margin-top: -30px;
 }
+.repo {
+  background: rgb(252, 200, 155);
+  height: 100px;
+  width: 600px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-top: 20px;
+}
 .small-box img {
   height: 170px;
   margin-left: 20px;
@@ -61,24 +83,21 @@ body {
   margin-left: 100px;
   color: black;
 }
+.repo a {
+  color: black;
+}
 a:link {
   text-decoration: none;
 }
-.quote {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 1841px;
-  background: rgb(252, 200, 155);
-  margin-top: -15px;
-  border-radius: 20px;
-}
+
 .chunk-1 {
   margin-top: 20px;
 }
 .chunk-2 {
   margin-top: 50px;
+}
+.chunk-3 {
+  display: flex;
 }
 
 /* phones */
@@ -116,6 +135,16 @@ a:link {
   .page {
     align-items: center;
   }
+  .quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 60px;
+    background: rgb(252, 200, 155);
+    border-radius: 20px;
+    margin-top: 20px;
+  }
   .small-box {
     background: rgb(252, 200, 155);
     height: 109px;
@@ -134,19 +163,20 @@ a:link {
     margin-right: 30px;
     color: black;
   }
+  .repo {
+    background: rgb(252, 200, 155);
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    border-radius: 20px;
+  }
   a:link {
     text-decoration: none;
   }
-  .quote {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: 100vw;
-    background: rgb(252, 200, 155);
-    margin-top: 20px;
-    border-radius: 20px;
-  }
+
   .chunk-1 {
     display: flex;
     flex-direction: column;
@@ -160,6 +190,10 @@ a:link {
     align-items: center;
     justify-content: center;
     margin: 0;
+  }
+  .chunk-3 {
+    display: flex;
+    flex-direction: column;
   }
   .discord {
     display: flex;
@@ -221,7 +255,6 @@ a:link {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
     margin-top: 24px;
     border-radius: 20px;
   }
@@ -233,18 +266,29 @@ a:link {
     margin-left: 30px;
     color: black;
   }
-  a:link {
-    text-decoration: none;
-  }
   .quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    background: rgb(252, 200, 155);
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
+  .repo {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
-    width: 400px;
+    width: 910px;
     background: rgb(252, 200, 155);
     margin-top: 20px;
     border-radius: 20px;
+  }
+  a:link {
+    text-decoration: none;
   }
   .chunk-1 {
     display: flex;
@@ -259,6 +303,10 @@ a:link {
     align-items: center;
     justify-content: center;
     margin: 0;
+  }
+  .chunk-3 {
+    display: flex;
+    flex-direction: column;
   }
   .discord {
     display: flex;
